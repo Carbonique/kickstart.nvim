@@ -408,8 +408,14 @@ end
 --  the `settings` field of the server config. You must look up that documentation yourself.
 local servers = {
   -- clangd = {},
-  -- gopls = {},
-  -- pyright = {},
+  gopls = {},
+  ansiblels = {},
+  bashls = {},
+  dockerls = {},
+  docker_compose_language_service = {},
+  pylsp = {},
+  terraformls = {},
+  yamlls = {},
   -- rust_analyzer = {},
   -- tsserver = {},
 
